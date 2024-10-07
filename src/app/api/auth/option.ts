@@ -100,6 +100,7 @@ export const authOptions: NextAuthOptions = {
       },
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET,
 }
 
 async function getUser(query: string, token: string, { variables = {} }) {
