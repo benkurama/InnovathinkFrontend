@@ -1,4 +1,4 @@
-const graphqlApi = process.env.NEXT_PUBLIC_GRAPHQL;
+const graphqlApi = process.env.NEXT_PUBLIC_GRAPHQL
 import { signOut } from 'next-auth/react'
 
 const setData = async (mutation, token, data = {}, additionalPath = '') => {

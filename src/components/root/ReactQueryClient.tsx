@@ -6,7 +6,7 @@ import {ReactQueryDevtools} from 'react-query/devtools';
 
 //const queryClient = new QueryClient();
 
-export const ReactQueryClient = ({children}: {children: React.ReactNode}, {session}: {session: Session}) => {
+export const ReactQueryClient = ({children}: {children: React.ReactNode}) => {
 
 
     const [queryClient] = useState(
