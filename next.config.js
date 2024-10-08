@@ -8,6 +8,9 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  //distDir: 'build',
+  //output: 'export',
+
   reactStrictMode: true,
   swcMinify: true,
   sassOptions: {
