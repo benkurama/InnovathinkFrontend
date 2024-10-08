@@ -34,7 +34,7 @@ export default async function middleware(request: NextRequest, event: NextFetchE
         pages: {
           signIn: '/login',
         },
-        secret: process.env.NEXTAUTH_SECRET
+        secret: '3b0EvUL92CfsWAQJOlHydgrWNv2Obbs/k6TZ+E4x090='
       },
     )(request as NextRequestWithAuth, event)
     return res

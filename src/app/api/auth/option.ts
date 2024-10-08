@@ -100,7 +100,7 @@ export const authOptions: NextAuthOptions = {
       },
     }),
   ],
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: '3b0EvUL92CfsWAQJOlHydgrWNv2Obbs/k6TZ+E4x090=',
 }
 
 async function getUser(query: string, token: string, { variables = {} }) {
